@@ -123,6 +123,7 @@ install elisa \
 #
 install bat \
         btop \
+        distrobox \
         fastfetch \
         fd \
         fish \
