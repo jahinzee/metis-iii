@@ -152,7 +152,9 @@ install @virtualization
 # ··· Packages: IMEs
 #     + install IMEs for Japanese (fcitx) and Bengali (openbangla)
 #
-install fcitx5-mozc
+install fcitx5 \
+        fcitx5-mozc \
+        kcm-fcitx5
 install-from-copr badshah/openbangla-keyboard \
                   fcitx-openbangla
 
